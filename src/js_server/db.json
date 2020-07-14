@@ -1,0 +1,63 @@
+{
+  "activity": [
+    {
+      "id": 1,
+      "cast_bag": 4
+    },
+    {
+      "id": 2,
+      "cast_bag": 6
+    }
+  ],
+  "organizations": [
+    {
+      "id": 1,
+      "name": "bla"
+    },
+    {
+      "id": 2,
+      "name": "bla"
+    },
+    {
+      "id": 3,
+      "name": "bla"
+    },
+    {
+      "id": 4,
+      "name": "bla"
+    },
+    {
+      "id": 5,
+      "name": "bla"
+    }
+    ],
+  "collection": [
+    {
+      "id": 1,
+      "location": "Wroclaw"
+  },
+    {
+      "id": 2,
+      "location": "Wroclaw"
+    },
+    {
+      "id": 3,
+      "location": "Wroclaw"
+    },
+    {
+      "id": 4,
+      "location": "Wroclaw"
+    },
+    {
+      "id": 5,
+      "location": "Wroclaw"
+    },
+    {
+      "id": 6,
+      "location": "Wroclaw"
+    }, {
+      "id": 7,
+      "location": "Wroclaw"
+    }
+  ]
+}

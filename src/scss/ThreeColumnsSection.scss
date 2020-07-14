@@ -1,0 +1,28 @@
+.homeThreeColumns{
+  height: 24rem;
+  width: 100%;
+  background-image: url("../assets/3 Columns Background.png");
+  display: flex;
+  justify-content: space-around;
+.threeColumnArticle{
+  width: 20.875rem;
+  height: 15.55rem;
+  margin-top: 2.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    font-size: 90px;
+  }
+  h3{
+    margin-top: 0.625rem;
+    font-size: 18px;
+  }
+  p{
+    margin-top: 1.75rem;
+    font-size: 16px;
+    text-align: center;
+    line-height:1.56rem;
+  }
+}
+}
