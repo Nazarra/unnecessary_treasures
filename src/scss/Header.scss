@@ -1,0 +1,66 @@
+header{
+  width: 109.87rem;
+  height: 60.19rem;
+  //display: flex;
+  .header_Image{
+  width: 55.31rem;
+    height:60.18rem;
+    background-image: url("../assets/Home-Hero-Image.jpg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: 8.875rem;
+  }
+  .top_menu{
+    width: 42.69rem;
+    height: 5.94rem;
+    position: fixed;
+    right: 8.875rem;
+    top: 2.31rem;
+
+  }
+  .login_and_register_container{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .register_and_login_button{
+    height: 2.25rem;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-family: $font-base;
+    font-weight:  bold  ;
+    color: $fontColor;
+    text-decoration: none;
+    div{
+      height: 2.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    :hover {
+      border: 1px solid $secondBackgroundSectionColor ;
+
+    }
+  }
+  .register{
+    width: 5.62rem;
+  }
+  .login{
+    width: 4.25rem;
+  }
+
+  .navigation ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.06rem;
+    a{
+      font-size: 18px;
+      font-weight: bolder;
+      text-decoration: none;
+      color: $secondFontColor;
+    }
+  }
+
+}

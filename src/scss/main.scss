@@ -1,9 +1,11 @@
 @import "reset";
 @import "fonts";
 @import "colors";
+@import "Header";
 
 
 
 body{
   font-family: $font-base;
+  width: 118.75rem;
 }

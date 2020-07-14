@@ -9,10 +9,10 @@ const Home = () => {
 
     return (
         <>
-            <header className={"header"}>
-                <HomeHeader />
-                <HomeThreeColumns />
-            </header>
+
+            <HomeHeader />
+            {/*<HomeThreeColumns />*/}
+
         </>
     );
 };
