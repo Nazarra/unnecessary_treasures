@@ -18,7 +18,7 @@ const HomeHeader = () => {
                                 <nav className={"navigation"}>
                                     <ul>
                                        <ScrollLink linkTarger={"..."} LinkName={"Start"} />
-                                        <ScrollLink linkTarger={"..."} LinkName={"O co chodzi?"} />
+                                        <ScrollLink linkTarger={"HomeSimpleSteps"} LinkName={"O co chodzi?"} />
                                         <ScrollLink linkTarger={"..."} LinkName={"o nas"} />
                                         <ScrollLink linkTarger={"..."} LinkName={"Fundacja i organizacje"} />
                                         <ScrollLink linkTarger={"..."} LinkName={"Kontakt"} />
