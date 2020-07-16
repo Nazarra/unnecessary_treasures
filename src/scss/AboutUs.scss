@@ -1,0 +1,47 @@
+.about_us_container{
+  height: 58.44rem ;
+  margin-top: 5rem ;
+  display: flex;
+  .about_us_content{
+    width: 50%;
+    height: 100%;
+    background-color: $firstBackgroundSectionColor;
+    background-image: url("../assets/Signature.svg");
+    background-repeat: no-repeat;
+    background-position: 38rem 34rem;
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    .about_us_article{
+      display: flex;
+      flex-direction: column;
+      width: 41.25rem;
+      text-align: center;
+      color: $secondFontColor ;
+      margin-top: 11.62rem;
+      h2{
+        font-size: 38px;
+        font-weight: 600;
+      }
+      h3{
+        margin-top: 1.625rem;
+        margin-bottom: 3.43rem;
+        align-self: center;
+        background-position: center;
+        width: 15.81rem;
+        height: 2.06rem;
+        background-image: url("../assets/Decoration.svg");
+      }
+      p{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 2.5rem;
+      }
+    }
+  }
+  .about_us_image{
+    width: 50%;
+    height: 100%;
+    background-image: url("../assets/People.jpg");
+  }
+}
