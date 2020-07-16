@@ -19,7 +19,7 @@ const HomeHeader = () => {
                                     <ul>
                                        <ScrollLink linkTarger={"..."} LinkName={"Start"} />
                                         <ScrollLink linkTarger={"HomeSimpleSteps"} LinkName={"O co chodzi?"} />
-                                        <ScrollLink linkTarger={"..."} LinkName={"o nas"} />
+                                        <ScrollLink linkTarger={"About_Us"} LinkName={"o nas"} />
                                         <ScrollLink linkTarger={"..."} LinkName={"Fundacja i organizacje"} />
                                         <ScrollLink linkTarger={"..."} LinkName={"Kontakt"} />
                                     </ul>
