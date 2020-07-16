@@ -3,10 +3,11 @@
 @import "colors";
 @import "Header";
 @import "ThreeColumnsSection";
+@import "SimpleSteps";
 
 
 
 body{
   font-family: $font-base;
-  width: 118.75rem;
+  width: 100vw;
 }
