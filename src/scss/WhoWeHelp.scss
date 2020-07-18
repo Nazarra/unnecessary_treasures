@@ -1,0 +1,108 @@
+
+.who_We_Help_Section{
+  display: flex;
+  justify-content: center;
+
+
+  .who_we_help_content_article{
+    width: 84rem;
+    height: 53.875rem;
+    margin-top: 4.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url("../assets/Decoration.svg");
+    background-repeat: no-repeat;
+    background-position: center 4.44rem;
+    .who_we_help_heading{
+      font-size: 38px;
+      color:$secondFontColor;
+      font-weight: 600;
+      margin-bottom: 6.81rem;
+
+    }
+    .who_we_help_button_container{
+      width: 44.25rem;
+      justify-content: space-between;
+      display: flex;
+
+      margin-bottom: 4.31rem;
+      .who_we_help_navigation{
+        -webkit-appearance: button;
+        width: 13rem;
+        height: 4.93rem;
+        font-size: 24px;
+        font-weight: normal;
+        text-decoration: none;
+        background-color: white;
+        border: none;
+        -webkit-transition: border 2s;
+        &:hover{
+          -webkit-transition: border 1s;
+          border: 1px solid $secondBackgroundSectionColor;
+        }
+      }
+      .active{
+        border: 1px $secondFontColor solid;
+      }
+    }
+    .who_we_help_content_container{
+      display: flex;
+      flex-direction: column;
+
+      .who_we_help_description{
+        width: 40rem;
+        height: 5.875rem;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.6rem;
+        margin-bottom: 4.125rem;
+        align-self: center;
+      }
+      .who_we_help_article{
+        width: 84rem;
+        font-family: $font-alt;
+        margin-bottom: 2.125rem;
+        &:first-of-type p {
+          border-bottom: 1px solid $fontColor ;
+        }
+        &:nth-of-type(2) p{
+          border-bottom: 1px solid $fontColor ;
+        }
+        h2{
+          font-size: 26px;
+          margin-bottom: 0.5rem;
+        }
+        h3 p {
+          font-size: 18px;
+        }
+        h3{
+          display: flex;
+          justify-content: flex-end;
+        }
+        p{
+          position: relative;
+          margin-top: -1rem;
+          padding-bottom: 1.94rem;
+        }
+      }
+      .who_we_help_button_container{
+        width: 100%;
+        justify-content: center;
+        .who_we_help_page_button{
+          width: 2.5rem;
+          height: 3.125rem;
+          background-color: white;
+          font-size: 18px;
+          border: 1px $fontColor solid;
+          border: none;
+        }
+        .active{
+          border: 1px black solid;
+        }
+      }
+    }
+  }
+}
+

@@ -5,10 +5,12 @@
 @import "ThreeColumnsSection";
 @import "SimpleSteps";
 @import "AboutUs";
+@import "WhoWeHelp";
 
 
 
 body{
   font-family: $font-base;
   width: 100vw;
+  display: flex;
 }

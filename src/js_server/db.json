@@ -12,52 +12,52 @@
   "organizations": [
     {
       "id": 1,
-      "name": "bla"
+      "name": "lorem Ipsum 1",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
     },
     {
       "id": 2,
-      "name": "bla"
+      "name": "lorem Ipsum 2",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+
     },
     {
       "id": 3,
-      "name": "bla"
+      "name": "lorem Ipsum1 3",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
     },
     {
       "id": 4,
-      "name": "bla"
+      "name": "lorem Ipsum1 4",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+
     },
     {
       "id": 5,
-      "name": "bla"
+      "name": "lorem Ipsum1 5",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
     }
     ],
   "collection": [
     {
       "id": 1,
-      "location": "Wroclaw"
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
   },
     {
       "id": 2,
-      "location": "Wroclaw"
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
     },
     {
       "id": 3,
-      "location": "Wroclaw"
-    },
-    {
-      "id": 4,
-      "location": "Wroclaw"
-    },
-    {
-      "id": 5,
-      "location": "Wroclaw"
-    },
-    {
-      "id": 6,
-      "location": "Wroclaw"
-    }, {
-      "id": 7,
-      "location": "Wroclaw"
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
     }
   ],
   "fundation": [
@@ -81,33 +81,33 @@
     },
     {
       "id": 4,
-      "name": "Lorem ipsum dolor sit amet.",
+      "name": "Lorem ipsum dolor sit amet 4.",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     },
     {
       "id": 5,
-      "name": "Lorem ipsum dolor sit amet.",
+      "name": "Lorem ipsum dolor sit amet 5.",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     },{
       "id": 6,
-      "name": "Lorem ipsum dolor sit amet.",
+      "name": "Lorem ipsum dolor sit amet 6.",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     },{
       "id": 7,
-      "name": "Lorem ipsum dolor sit amet.",
+      "name": "Lorem ipsum dolor sit amet 7.",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     },{
       "id": 8,
-      "name": "Lorem ipsum dolor sit amet.",
+      "name": "Lorem ipsum dolor sit amet 8.",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     },{
       "id": 9,
-      "name": "Lorem ipsum dolor sit amet.",
+      "name": "Lorem ipsum dolor sit amet 9.",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     }
