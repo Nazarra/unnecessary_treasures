@@ -1,14 +1,12 @@
-import React,{useState} from "react";
+import React from "react";
 
 const ThreePartArticle = (props) => {
-    const [image, setImage]=useState(props.imageLocation)
-    const [imagePath, setImagePath] = useState(props.imagePath)
     return(
         <>
             <div className={props.articleClassName}>
-                {image === "imageTop" ? <img src={imagePath} /> : <h2>{props.articleTitle}</h2>}
-                {image === "imageMiddle" ? <img src={imagePath} /> : <h3>{props.articleHeader}</h3>}
-                {image === "imageBottom" ? <img src={imagePath} /> : <p>{props.articleContent}</p>}
+                {props.imageLocation === "imageTop" ? <img src={props.imagePath} /> : <h2>{props.articleTitle}</h2>}
+                {props.imageLocation === "imageMiddle" ? <img src={props.imagePath} /> : <h3>{props.articleHeader}</h3>}
+                {props.imageLocation === "imageBottom" ? <img src={props.imagePath} /> : <p>{props.articleContent}</p>}
             </div>
         </>
     )

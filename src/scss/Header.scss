@@ -1,6 +1,7 @@
 header{
-  width: 109.87rem;
+  //width: 109.87rem;
   height: 60.19rem;
+  width: 100vw;
   display: flex;
   .header_Image{
   width: 55.31rem;
@@ -108,6 +109,13 @@ header{
         padding-left: 30px;
         padding-right: 30px;
         color: $secondFontColor;
+        -webkit-transition: border 2s, border-radius 2s;
+        &:hover{
+          -webkit-transition: border 2s, border-radius 2s;
+          transition: border 2s, border-radius 2s;
+          border: 2px solid $secondBackgroundSectionColor;
+          border-radius: 50px 50px 50px 50px;
+        }
       }
       .give{
         margin-left: 0.41rem;

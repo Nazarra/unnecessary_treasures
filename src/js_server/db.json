@@ -59,5 +59,57 @@
       "id": 7,
       "location": "Wroclaw"
     }
-  ]
+  ],
+  "fundation": [
+    {
+      "id": 1,
+      "name": "Dbam o zdrowie",
+      "purpose": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+      "request": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    },
+    {
+      "id": 2,
+      "name": "Dla dzieci",
+      "purpose": "Pomoc dzieciom z ubogich rodzin",
+      "request": "ubrania, meble, zabawki"
+    },
+    {
+      "id": 3,
+      "name": "Bez domu",
+      "purpose": "Pomoc dla osób nie posiadających miejsca zamieszkania.",
+      "request": "obrania, jedzenie, ciepłe koce"
+    },
+    {
+      "id": 4,
+      "name": "Lorem ipsum dolor sit amet.",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+    },
+    {
+      "id": 5,
+      "name": "Lorem ipsum dolor sit amet.",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+    },{
+      "id": 6,
+      "name": "Lorem ipsum dolor sit amet.",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+    },{
+      "id": 7,
+      "name": "Lorem ipsum dolor sit amet.",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+    },{
+      "id": 8,
+      "name": "Lorem ipsum dolor sit amet.",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+    },{
+      "id": 9,
+      "name": "Lorem ipsum dolor sit amet.",
+      "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
+      "request": "Lorem, ipsum, dolor."
+    }
+    ]
 }

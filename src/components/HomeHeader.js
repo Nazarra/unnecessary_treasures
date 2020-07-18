@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import LinkedButton from "./LinkedButton";
 import ScrollLink from "./ScrollLink";
 
@@ -7,7 +7,7 @@ const HomeHeader = () => {
 
     return (
         <>
-            <header className={"homeHeader"}>
+            <header className={"homeHeader"} name={"Header"}>
                 <div className={"header_Image"}></div>
                     <section className={"Header_Content"}>
                         <div className={"top_menu"}>
@@ -17,7 +17,7 @@ const HomeHeader = () => {
                             </div>
                                 <nav className={"navigation"}>
                                     <ul>
-                                       <ScrollLink linkTarger={"..."} LinkName={"Start"} />
+                                       <ScrollLink linkTarger={"Header"} LinkName={"Start"} />
                                         <ScrollLink linkTarger={"HomeSimpleSteps"} LinkName={"O co chodzi?"} />
                                         <ScrollLink linkTarger={"About_Us"} LinkName={"o nas"} />
                                         <ScrollLink linkTarger={"..."} LinkName={"Fundacja i organizacje"} />

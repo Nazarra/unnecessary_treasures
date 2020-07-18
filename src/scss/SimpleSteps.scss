@@ -136,6 +136,14 @@
     align-items: center;
     text-align: center;
     line-height: 2.82rem;
+    -webkit-transition: border 2s, border-radius 2s;
+    &:hover{
+      -webkit-transition: border 2s, border-radius 2s;
+      transition: border 2s, border-radius 2s;
+
+      border: 2px solid $secondBackgroundSectionColor;
+      border-radius: 50px 50px 50px 50px;
+    }
     div{
       width: 7.75rem;
     }

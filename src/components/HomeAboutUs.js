@@ -1,7 +1,6 @@
 import React from "react";
 import ThreePartArticle from "./ThreePartArticle";
 import DecorationImage from "../assets/Decoration.svg"
-import FirstImage from "../assets/Icon-1.svg";
 
 const HomeAboutUs = () =>{
 
