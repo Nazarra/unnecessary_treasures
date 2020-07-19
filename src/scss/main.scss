@@ -6,11 +6,12 @@
 @import "SimpleSteps";
 @import "AboutUs";
 @import "WhoWeHelp";
+@import "ContactUs";
+@import "Footer";
 
 
 
 body{
   font-family: $font-base;
-  width: 100vw;
   display: flex;
 }
