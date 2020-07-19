@@ -1,0 +1,23 @@
+footer{
+  position: absolute;
+  display: flex;
+  top: 305.625rem;
+  left: 50%;
+  align-items: center;
+  z-index: 2;
+  .footer_content{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 36.69rem;
+  }
+  img{
+    width: 1.975rem;
+    height: 1.975rem;
+  }
+  .footer_facebook_img{
+    margin-right: 1.25rem;
+  }
+
+
+
+}

@@ -17,7 +17,7 @@ const HomeWhoWeHelp = () => {
     const whoWeHelpDescriptionArray = [
         "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra vitae mi eu pulvinar. Pellentesque finibus pellentesque mauris a semper. Nunc vitae ullamcorper ex, in fermentum elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing e    const [displayed, setDisplayed] = useState(0);\nlit. Vivamus viverra vitae mi eu pulvinar. Pellentesque finibus pellentesque mauris a semper. Nunc vitae ullamcorper ex, in fermentum elit."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing. Vivamus viverra vitae mi eu pulvinar. Pellentesque finibus pellentesque mauris a semper. Nunc vitae ullamcorper ex, in fermentum elit."
     ]
 
     const whoWeHelpArticleType = [
