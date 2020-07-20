@@ -127,8 +127,9 @@ const HomeWhoWeHelp = () => {
 
 // przełączenie na inna sekcje i pobranie danych z bazy.
    const handleClick = (number) => {
-       setDisplayed(number)
        databaseConnect()
+       setDisplayed(number)
+
     }
 
 
