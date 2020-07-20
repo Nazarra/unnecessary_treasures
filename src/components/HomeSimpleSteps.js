@@ -17,24 +17,28 @@ const HomeSimpleSteps = () => {
                     <ThreePartArticle articleClassName={"simple_steps_article first"}
                                       imageLocation={'imageTop'}
                                       imagePath={FirstImage}
+                                      altText={"wybierz"}
                                       articleHeader={'Wybierz rzeczy'}
                                       articleContent={'ubrania,zabawki,sprzęt i inne'}
                     />
                     <ThreePartArticle articleClassName={"simple_steps_article second"}
                                       imageLocation={'imageTop'}
                                       imagePath={SecondImage}
-                                      articleHeader={'Spakuj je'}
+                                      altText={"spakuj je"}
+                                      articleHeader={'Spakuj'}
                                       articleContent={'skorzystaj z worków na śmieci'}
                     />
                     <ThreePartArticle articleClassName={"simple_steps_article third"}
                                       imageLocation={'imageTop'}
                                       imagePath={ThirdImage}
+                                      altText={"Zdecyduj"}
                                       articleHeader={'Zdecyduj komu chcesz pomóc'}
                                       articleContent={'wybierz zaufane miejsce'}
                     />
                     <ThreePartArticle articleClassName={"simple_steps_article fourth"}
                                       imageLocation={'imageTop'}
                                       imagePath={FourthImage}
+                                      altText={"zamów"}
                                       articleHeader={'zamów kuriera'}
                                       articleContent={'kurier przyjedzie w dogodnym terminie'}
                     />

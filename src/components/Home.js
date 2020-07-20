@@ -5,9 +5,6 @@ import HomeSimpleSteps from "./HomeSimpleSteps";
 import HomeAboutUs from "./HomeAboutUs";
 import HomeWhoWeHelp from "./HomeWhoWeHelp";
 import HomeContactUs from "./HomeContactUs";
-import HomeFooter from "./HomeFooter";
-
-
 
 
 const Home = () => {

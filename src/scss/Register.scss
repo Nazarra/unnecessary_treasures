@@ -1,0 +1,84 @@
+
+.register_section{
+  background-image: url("../assets/Register.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  opacity: 0.9;
+  display: flex;
+  justify-content: flex-end;
+  //align-items: center;
+  .register_form_container{
+    display: flex;
+    flex-direction: column;
+    width: 31.25rem;
+    //border: 1px red solid;
+    align-items: center;
+    margin-right: 15.625rem;
+    margin-top: 10rem;
+    h2{
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 2.44rem;
+    }
+    img{
+      margin-bottom: 4.39rem;
+    }
+    .register_form{
+      display: flex;
+      flex-direction: column;
+      width: 24rem;
+      height: 20.5rem;
+      background-color: $firstBackgroundSectionColor;
+      align-items: center;
+      label{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.9rem;
+        width: 15.625rem;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+        input{
+          border-left: none;
+          border-right: none;
+          border-top:none;
+          background-color: $firstBackgroundSectionColor;
+          height: 2.875rem;
+          font-size: 15px;
+          text-align: left;
+        }
+
+      }
+      .register_form_button{
+        width: 7.31rem;
+        height: 3.125rem;
+        position: absolute;
+        top:42.5rem;
+        right: 15.625rem;
+        background-color: white;
+        border: 2px $secondBackgroundSectionColor outset;
+        font-size: 18px;
+        box-shadow: 2px 3px 2px 0px rgba(0,0,0,0.3);
+        font-weight: 400;
+        color:$fontColor ;
+      }
+    }
+    .login{
+      position: absolute;
+      top:42.5rem;
+      right: 37.31rem;
+      border: 1px black solid;
+      font-size: 18px;
+      width: 7.31rem;
+      height: 3.125rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px $secondBackgroundSectionColor outset;
+      font-size: 18px;
+      box-shadow: 2px 3px 2px 0px rgba(0,0,0,0.3);
+
+    }
+  }
+}

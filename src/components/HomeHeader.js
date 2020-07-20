@@ -1,30 +1,16 @@
 import React from "react";
 import LinkedButton from "./LinkedButton";
-import ScrollLink from "./ScrollLink";
+import TopMenu from "./TopMenu";
 
 const HomeHeader = () => {
 
 
     return (
         <>
-            <header className={"homeHeader"} name={"Header"}>
+            <header className={"homeHeader header"} name={"Header"}>
                 <div className={"header_Image"}></div>
                     <section className={"Header_Content"}>
-                        <div className={"top_menu"}>
-                            <div className={"login_and_register_container"}>
-                                <LinkedButton linkTarget={'/logIn'} buttonClassName={"register_and_login_button login"} buttonContent={"Zaloguj"} />
-                                <LinkedButton linkTarget={'/register'} buttonClassName={"register_and_login_button register"} buttonContent={"Załóż konto"} />
-                            </div>
-                                <nav className={"navigation"}>
-                                    <ul>
-                                       <ScrollLink linkTarger={"Header"} LinkName={"Start"} />
-                                        <ScrollLink linkTarger={"HomeSimpleSteps"} LinkName={"O co chodzi?"} />
-                                        <ScrollLink linkTarger={"About_Us"} LinkName={"o nas"} />
-                                        <ScrollLink linkTarger={"who_we_help"} LinkName={"Fundacja i organizacje"} />
-                                        <ScrollLink linkTarger={"contact"} LinkName={"Kontakt"} />
-                                    </ul>
-                                </nav>
-                        </div>
+                        <TopMenu />
                         <div className={"intro"}>
                             <h1>Zacznij pomagać! <br/> Oddaj niechciane rzeczy w zaufane ręce</h1>
                             <div className={"intro_content"}>
