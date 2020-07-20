@@ -1,0 +1,20 @@
+.logIn_section{
+  background-image: url("../assets/Login_background.jpg");
+  background-size: contain;
+  background-position: 20% ;
+}
+
+
+.LogIn_content{
+  .Login_form_container{
+    .LogIn_form{
+      height: 16rem;
+      .register_form_button{
+        top:38.9rem;
+      }
+    }
+    .login{
+      top:38.9rem;
+    }
+  }
+}

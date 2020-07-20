@@ -1,5 +1,5 @@
 
-.register_section{
+.register_and_login_section{
   background-image: url("../assets/Register.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -7,12 +7,10 @@
   opacity: 0.9;
   display: flex;
   justify-content: flex-end;
-  //align-items: center;
   .register_form_container{
     display: flex;
     flex-direction: column;
     width: 31.25rem;
-    //border: 1px red solid;
     align-items: center;
     margin-right: 15.625rem;
     margin-top: 10rem;
@@ -36,16 +34,15 @@
         flex-direction: column;
         margin-top: 1.9rem;
         width: 15.625rem;
-        font-size: 16px;
+        font-size: 19px;
         font-weight: 600;
-        margin-bottom: 0.4rem;
         input{
           border-left: none;
           border-right: none;
           border-top:none;
           background-color: $firstBackgroundSectionColor;
           height: 2.875rem;
-          font-size: 15px;
+          font-size: 17px;
           text-align: left;
         }
 

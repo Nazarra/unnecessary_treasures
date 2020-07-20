@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom';
 import Home from "./components/Home";
 import Register from "./components/Register";
+import LogIn from "./components/LogIn";
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
       <>
         <Route exact path='/' component={Home} />
         <Route path='/Register' component={Register} />
+        <Route path='/logIn' component={LogIn} />
       </>
     </HashRouter>
   )}
