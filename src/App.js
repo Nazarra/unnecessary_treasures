@@ -11,6 +11,7 @@ import {
 import Home from "./components/Home";
 import Register from "./components/Register";
 import LogIn from "./components/LogIn";
+import Logout from "./components/Logout";
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
         <Route exact path='/' component={Home} />
         <Route path='/Register' component={Register} />
         <Route path='/logIn' component={LogIn} />
+        <Route path='/Logout' component={Logout} />
       </>
     </HashRouter>
   )}
