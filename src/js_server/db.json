@@ -46,16 +46,19 @@
   "collection": [
     {
       "id": 1,
+      "name": "lorem Ipsum1 1",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
   },
     {
       "id": 2,
+      "name": "lorem Ipsum1 2",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     },
     {
       "id": 3,
+      "name": "lorem Ipsum1 3",
       "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.",
       "request": "Lorem, ipsum, dolor."
     }

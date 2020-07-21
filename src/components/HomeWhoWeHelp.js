@@ -10,6 +10,12 @@ const HomeWhoWeHelp = () => {
 
     const [pageDisplay, setPageDisplay] = useState(0)
 
+    const [collectionData, setCollectionData] = useState(null)
+
+    const [organizationsData, setOrganizationsData] = useState(null)
+
+    const [foundationData, setFoundationData] = useState(null)
+
 
     const [data, SetData] = useState(null)
 
@@ -28,37 +34,48 @@ const HomeWhoWeHelp = () => {
 
     const API = "http://localhost:3000";
 
-    const APItarger = [
-        'fundation',
-        'organizations',
-        'collection'
-    ]
 // Pobranie damych z bazy.
     useEffect(() => {
         databaseConnect();
+        SetData(organizationsData)
+
     }, []);
+
+
+    // Seter artykułów ustawia odpowiednie dane do hooks na podstawie których renderują się odpowiednie artykuły.
+
+    const ArticleSeter=(data,display)=>{
+        SetData(data)
+        setDisplayed(display)
+        setPageDisplay(0)
+        let result;
+        result = data.length / 3;
+        if (result <= 1) {
+            return setPageCount(0)
+        } else if (result > Math.round((result))) {
+            return setPageCount(Math.round((result)) + 1)
+        } else {
+            return setPageCount(Math.round(result))
+        }
+    }
 
 
     const databaseConnect = () => {
 
-        fetch(`${API}/${APItarger[displayed]}`)
+        fetch(`${API}/db/`)
 
             .then(response => response.json())
 
             .then(data => {
+                setCollectionData(data.collection)
 
-                SetData(data)
+                setOrganizationsData(data.organizations)
 
-                // Wyliczenie ile stron będzie trzeba wygenerować na podstawie danych z bazy.
-                let result;
-                result = data.length / 3;
-                if (result <= 1) {
-                    return setPageCount(0)
-                } else if (result > Math.round((result))) {
-                    return setPageCount(Math.round((result)) + 1)
-                } else {
-                    return setPageCount(Math.round(result))
-                }
+                setFoundationData(data.fundation)
+
+                SetData(data.organizations)
+
+                ArticleSeter(data.organizations,1)
 
             })
             .catch(error => {
@@ -66,8 +83,8 @@ const HomeWhoWeHelp = () => {
             });
     }
 
-
     // Fabryka artykułów.
+
 
    let whoWeHelpArticle;
    if(data !== null){
@@ -126,12 +143,23 @@ const HomeWhoWeHelp = () => {
    }
 
 // przełączenie na inna sekcje i pobranie danych z bazy.
-   const handleClick = (number) => {
-       databaseConnect()
-       setDisplayed(number)
+    const handleFoundationClick = () => {
+
+        ArticleSeter(foundationData,0)
 
     }
 
+   const handleOrganisationClick = () => {
+
+       ArticleSeter(organizationsData,1)
+    }
+
+
+   const handleCollectionClick =() =>{
+
+       ArticleSeter(collectionData,2)
+
+   }
 
     return (
         <>
@@ -139,9 +167,9 @@ const HomeWhoWeHelp = () => {
                 <article className={'who_we_help_content_article'}>
                     <h2 className={"who_we_help_heading"}>Komu pomagamy ?</h2>
                     <div className={'who_we_help_button_container'}>
-                        <FunctionButton buttonClassName={`fundation_button who_we_help_navigation ${displayed === 0 ? "active" :""}`} buttonFunction={()=>handleClick(0)} buttonText={'Fundacjom'} />
-                        <FunctionButton buttonClassName={`organizations_button who_we_help_navigation ${displayed === 1 ? "active" :""}`} buttonFunction={()=>handleClick(1)} buttonText={'Organizacjom pozarządowym'} />
-                        <FunctionButton buttonClassName={`local_collection_button who_we_help_navigation ${displayed === 2 ? "active" :""}`} buttonFunction={()=>handleClick(2) } buttonText={'Lokalnym zbiórkom'} />
+                        <FunctionButton buttonClassName={`fundation_button who_we_help_navigation ${displayed === 0 ? "active" :""}`} buttonFunction={()=>handleFoundationClick()} buttonText={'Fundacjom'} />
+                        <FunctionButton buttonClassName={`organizations_button who_we_help_navigation ${displayed === 1 ? "active" :""}`} buttonFunction={()=>handleOrganisationClick()} buttonText={'Organizacjom pozarządowym'} />
+                        <FunctionButton buttonClassName={`local_collection_button who_we_help_navigation ${displayed === 2 ? "active" :""}`} buttonFunction={()=>handleCollectionClick() } buttonText={'Lokalnym zbiórkom'} />
                     </div>
                     <div className={'who_we_help_content_container'}>
                         <h2 className={'who_we_help_description'}>{whoWeHelpDescriptionArray[displayed]}</h2>
